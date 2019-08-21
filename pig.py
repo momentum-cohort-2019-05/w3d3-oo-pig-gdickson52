@@ -33,7 +33,7 @@ class Game:
         print ("final score: {} in {} turns ({})".format(self.total_score, self.turns, self.total_score/self.turns))
         
         if self.total_score >= 100:
-            winner = input("winner, winner chicken dinner!")
+            winner = input("YOU WIN!")
             with open("scoreboard.txt", "W") as f:
                 f.write("{}//{}//{}\n".format(winner, self.turns, self.total_score))
 game = Game()
