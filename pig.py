@@ -1,8 +1,8 @@
 import random
 
 print("Lets Play PIG! ")
-print("Ready, its your turn. ")
-print("type roll to begin, and type stay to stop turn. ")
+print("Ready for some fun!?, its your turn. ")
+print("type roll to begin, and type stay to stop your turn. ")
 
 class Game:
     def __init__(self):
